@@ -1,0 +1,163 @@
+,Subject,Number,Section,Location,Name,Professor,DateTime
+0,BIOL,106,01,SCIE113,The Biology of Sex,"Powzyk,Joyce",2024-12-10 19:00:00
+1,BIOL,218,01,SCIE141,Developmental Biology,"Johnson,Ruth",2024-12-10 19:00:00
+2,BIOL,245,01,SHAN201,Cellular Neurophysiology,"Aaron,Gloster",2024-12-10 19:00:00
+3,CHEM,141,02,SHAN107,General Chemistry I,"Davis,Anthony",2024-12-10 19:00:00
+4,COL,228,01,PAC100,"Virtue and Vice in History, Literature, and Philosophy","Roth,Michael",2024-12-10 19:00:00
+5,ECON,101,01,SCIE150,Introduction to Economics,"Skillman,Gilbert",2024-12-10 19:00:00
+6,GOVT,155,02,PAC107,International Relations,"Gallarotti,Giulio",2024-12-10 19:00:00
+7,GOVT,320,01,PAC301,International Relations of South Asia,"Hanson,Kolby",2024-12-10 19:00:00
+8,GRK,102,01,DWNY208,Introduction to Ancient Greek: Semester II,"Burmeister,Torie",2024-12-10 19:00:00
+9,HEBR,201,01,RSCSEM,Intermediate Hebrew I,"Katz,Dalit",2024-12-10 19:00:00
+10,MATH,228,03,PAC108,Discrete Mathematics,"Patel,Rehana",2024-12-10 19:00:00
+11,MATH,231,01,SCIE139,An Introduction to Probability,"Li,Han",2024-12-10 19:00:00
+12,MB&B,181,01,SCIE189,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Murolo,Michelle",2024-12-10 19:00:00
+13,MB&B,181,02,SCIE189,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Murolo,Michelle",2024-12-10 19:00:00
+14,NS&B,302,01,SCIE103,Neurobiology of Aging,"F. Cavarsan Muller,Clarissa",2024-12-10 19:00:00
+15,PHYS,111,01,SCIE58,Introductory Physics I,"Tu,Min-Feng; Davino,Michael",2024-12-10 19:00:00
+16,PHYS,111,02,SCIE58,Introductory Physics I,"Tu,Min-Feng; Davino,Michael",2024-12-10 19:00:00
+17,PHYS,111,03,SCIE58,Introductory Physics I,"Tu,Min-Feng; Davino,Michael",2024-12-10 19:00:00
+18,PHYS,111,04,SCIE58,Introductory Physics I,"Tu,Min-Feng; Davino,Michael",2024-12-10 19:00:00
+19,PHYS,113,02,SCIE121,General Physics I,"Paily,George",2024-12-10 19:00:00
+20,PHYS,315,01,SCIE216,Quantum Mechanics II,"Kottos,Tsampikos",2024-12-10 19:00:00
+21,PSYC,248,01,JUDD116,Adolescence and Emerging Adulthood,"Dubar,Royette",2024-12-10 19:00:00
+22,PSYC,339,01,ALLB304,Psychology of Human Sexuality,"Curley,Christine",2024-12-10 19:00:00
+23,RELI,201,01,FISK305,Introduction to the Hebrew Bible (Old Testament),"Walker,Tanner",2024-12-10 19:00:00
+24,ARCP,350,01,SCIE351,Animals in Archaeology,"Brunson,Katherine",2024-12-11 09:00:00
+25,ARST,337,01,AWKS006,Codex Unbound,"Nguyen,Tammy",2024-12-11 09:00:00
+26,ASTR,155,01,VVO110,Introduction to Astrophysics,"Hughes,Meredith",2024-12-11 09:00:00
+27,BIOL,254,01,SCIE109,Comparative Animal Behavior,"Feng,Ni",2024-12-11 09:00:00
+28,GOVT,159,02,PAC117,The Moral Basis of Politics,"Cucharo,Stephen",2024-12-11 09:00:00
+29,MATH,121,03,SCIE139,Calculus I,"Li,Han",2024-12-11 09:00:00
+30,MATH,122,02,SCIE137,Calculus II,"Patel,Rehana",2024-12-11 09:00:00
+31,MB&B,395,01,SCIE103,Structural Biology Laboratory,"Olson,Rich",2024-12-11 09:00:00
+32,PHYS,324,01,SCIE141,Electricity and Magnetism,"McKenzie-Smith,Grace",2024-12-11 09:00:00
+33,RUSS,101,01,FISK410,Elementary Russian I,"Karageorgos,Natasha",2024-12-11 09:00:00
+34,SPAN,103,02,FISK403,Elementary Spanish for High Beginners,"Plaza,Juan Esteban",2024-12-11 09:00:00
+35,ARHA,213,01,BOGH113,"Cross, Book, Bone: Early Medieval Art, ca. 300-1100","Ackley,Joseph",2024-12-11 14:00:00
+36,COMP,115,01,SCIE72,How to Design Programs,"Kolomatskaia,Astra",2024-12-11 14:00:00
+37,ECON,210,01,PAC101,Climate Change Economics and Policy,"Gourley,Patrick",2024-12-11 14:00:00
+38,ENGL,216A,01,DWNY100,Techniques of Poetry: Hidden Histories,"Vogel,Danielle",2024-12-11 14:00:00
+39,GOVT,205,01,FISK404,Judicial Process and Politics,"Mark,Alyx",2024-12-11 14:00:00
+40,GOVT,274,01,PAC100,Russian Politics,"Volkov,Leonid",2024-12-11 14:00:00
+41,GOVT,312,01,PAC107,Strategic Dilemmas in Politics,"Hanson,Kolby",2024-12-11 14:00:00
+42,GOVT,354,01,BOGH115,Marx and Marxism,"Cucharo,Stephen",2024-12-11 14:00:00
+43,MATH,247,01,SCIE121,Applied Linear Algebra,"Yoon,Iris",2024-12-11 14:00:00
+44,NS&B,251,01,SCIE91,Laboratory in Basic Practices in Neuroscience,"F. Cavarsan Muller,Clarissa",2024-12-11 14:00:00
+45,PSYC,206,01,BOGH110,Research Methods in Cognitive Development and Education,"Shusterman,Anna",2024-12-11 14:00:00
+46,PSYC,260,01,JUDD116,Social Psychology,"De Souza,Lucy",2024-12-11 14:00:00
+47,ARST,238,01,AWKS006,Print Culture 101,"Nguyen,Tammy",2024-12-11 19:00:00
+48,ECON,127,01,PAC003,Introduction to Financial Accounting,"Mazzella,Mary",2024-12-11 19:00:00
+49,GOVT,275,01,PAC100,Political Resistance to Dictatorships,"Volkov,Leonid",2024-12-11 19:00:00
+50,MATH,119,01,SCIE121,"Elements of Calculus, Part I","Valdes Gonzalez,Felipe Ignacio",2024-12-11 19:00:00
+51,MATH,119,02,SCIE121,"Elements of Calculus, Part I","O'Hara,Suzanne",2024-12-11 19:00:00
+52,MATH,119,03,SCIE121,"Elements of Calculus, Part I","Leidy,Constance",2024-12-11 19:00:00
+53,ARCP,204,01,SCIE309,Introduction to Archaeology,"Brunson,Katherine",2024-12-12 09:00:00
+54,ENGL,203,01,SCIE150,American Literature to 1865,"Garrett,Matthew",2024-12-12 09:00:00
+55,GRST,101,02,RLANB2,Elementary German,"Baeumel,Martin",2024-12-12 09:00:00
+56,HEBR,101,01,RSCSEM,Beginning Hebrew I,"Katz,Dalit",2024-12-12 09:00:00
+57,MATH,121,01,SCIE139,Calculus I,"Chang,Yu-Chan",2024-12-12 09:00:00
+58,MATH,132,02,SCIE618,Elementary Statistics,"Torres,Roberto Carlos",2024-12-12 09:00:00
+59,MB&B,181,03,SHAN107,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Lane,Robert",2024-12-12 09:00:00
+60,MB&B,181,05,SHAN107,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Lane,Robert",2024-12-12 09:00:00
+61,MB&B,181,06,SHAN107,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Lane,Robert",2024-12-12 09:00:00
+62,MB&B,208,01,JUDD116,Molecular Biology,"Holmes,Scott",2024-12-12 09:00:00
+63,PHYS,113,01,SCIE121,General Physics I,"Paily,George",2024-12-12 09:00:00
+64,RUSS,201,01,FISK302,Intermediate Russian I,"Karageorgos,Natasha",2024-12-12 09:00:00
+65,SPAN,103,01,FISK122,Elementary Spanish for High Beginners,"Plaza,Juan Esteban",2024-12-12 09:00:00
+66,ARHA,266,01,BOGH112,History and Core Ideas in African Photography: 1850s to the Present,"Nwafor,Okechukwu",2024-12-12 14:00:00
+67,ARHA,279,01,BOGH113,Arts of China and Japan: From Shang Bronzes to Erotic Woodblock Prints,"Andrei,Talia",2024-12-12 14:00:00
+68,BIOL,140,01,SHAN201,Classic Studies in Animal Behavior,"Powzyk,Joyce",2024-12-12 14:00:00
+69,BIOL,310,01,SCIE72,Genomics Analysis,"Coolon,Joseph",2024-12-12 14:00:00
+70,ECON,110,02,PAC001,Introduction to Economic Theory,"Kuenzel,David",2024-12-12 14:00:00
+71,ECON,301,02,SCIE121,Microeconomic Analysis,"Keats,Anthony",2024-12-12 14:00:00
+72,GOVT,151,02,PAC101,American Government and Politics,"Peck,Justin",2024-12-12 14:00:00
+73,GOVT,232,01,PAC307,Campaigns and Elections,"Dancey,Logan",2024-12-12 14:00:00
+74,GOVT,307,01,PAC108,"Identity & Politics of South Asia: India, Pakistan, and Afghanistan","Shahid,Rudabeh",2024-12-12 14:00:00
+75,LAT,203,01,DWNY208,Latin Prose: Roman Letters,"Burmeister,Torie",2024-12-12 14:00:00
+76,MATH,221,02,FISK305,Vectors and Matrices,"Yelton,Jeffrey",2024-12-12 14:00:00
+77,MATH,261,01,SCIE139,Introduction to Abstract Algebra,"Rasmussen,Christopher",2024-12-12 14:00:00
+78,MUSC,243,01,MST301,Music of the 19th Century,"Bruce,Neely",2024-12-12 14:00:00
+79,MUSC,246,01,OLIN327B,The Symphony: Evolution of Genre,"Potemkina,Nadya",2024-12-12 14:00:00
+80,PHIL,212,01,FISK413,Introduction to Ethics,"Springer,E",2024-12-12 14:00:00
+81,PHIL,347,01,RUSLSEM,"Ethics, Ecology, and Moral Change","Springer,E",2024-12-12 14:00:00
+82,PHYS,213,01,SCIE58,Waves and Oscillations,"Stewart,Brian",2024-12-12 14:00:00
+83,PSYC,260,02,SCIE109,Social Psychology,"Curley,Christine",2024-12-12 14:00:00
+84,ARCP,210,01,SCIE137,The Technological Primate: Archaeological Approaches to Ancient Technology,"Gill,Jayson",2024-12-13 09:00:00
+85,ARHA,267,01,BOGH113,"Memorials, African Art, and the Burden of Remembering","Nwafor,Okechukwu",2024-12-13 09:00:00
+86,ARHA,284,01,BOGH112,Buddhist Art and Architecture,"Andrei,Talia",2024-12-13 09:00:00
+87,ARST,131,03,AWKS105,Drawing I,"TenEyck,Kate",2024-12-13 09:00:00
+88,ASTR,111,01,VVO110,The Dark Side of the Universe,"Moran,Edward",2024-12-13 09:00:00
+89,BIOL,140,02,HALL56,Classic Studies in Animal Behavior,"Powzyk,Joyce",2024-12-13 09:00:00
+90,BIOL,173,01,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+91,BIOL,173,02,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+92,BIOL,173,03,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+93,BIOL,173,04,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+94,BIOL,173,05,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+95,BIOL,173,06,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+96,BIOL,173,07,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+97,BIOL,173,09,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+98,BIOL,173,10,SCIE150,Global Change and Infectious Disease,"Cohan,Frederick",2024-12-13 09:00:00
+99,ECON,110,03,PAC100,Introduction to Economic Theory,"Sheehan-Connor,Damien",2024-12-13 09:00:00
+100,ECON,301,03,PAC002,Microeconomic Analysis,"Keats,Anthony",2024-12-13 09:00:00
+101,ECON,381,01,PAC101,Advanced Game Theory,"Zhao,Xiaoxue",2024-12-13 09:00:00
+102,ENVS,197,02,SCIE121,Introduction to Environmental Studies,"Miller,Kathleen (Kate)",2024-12-13 09:00:00
+103,GOVT,157,01,PAC307,Democracy and Dictatorship: Politics in the Contemporary World,"Shahid,Rudabeh",2024-12-13 09:00:00
+104,GOVT,308,01,PAC108,Comparative Urban Policy,"Haddad,Mary Alice",2024-12-13 09:00:00
+105,GOVT,335,01,PAC117,Political Economy of Foreign Aid,"Dolan,Lindsay",2024-12-13 09:00:00
+106,GOVT,393,01,PAC333,The Politics of Authenticity,"Hagel,Nina",2024-12-13 09:00:00
+107,MATH,221,01,SCIE109,Vectors and Matrices,"Chan,Wai Kiu",2024-12-13 09:00:00
+108,MATH,225,01,SCIE139,Introduction to Real Analysis,"Ramirez,Felipe",2024-12-13 09:00:00
+109,MATH,228,01,SCIE141,Discrete Mathematics,"Rasmussen,Christopher",2024-12-13 09:00:00
+110,MUSC,202,01,MST301,Theory and Analysis,"Mitchell,Nathaniel",2024-12-13 09:00:00
+111,NS&B,304,01,SHAN201,Glia: Not just neuronal glue!,"F. Cavarsan Muller,Clarissa",2024-12-13 09:00:00
+112,PSYC,200,02,SCIE74,Statistics: An Activity-Based Approach,"Kurtz,Matthew",2024-12-13 09:00:00
+113,ARHA,110,01,BOGH112,Introduction to Western Art II: Renaissance to Modern,"Kuenzli,Katherine; Aksamija,Nadja",2024-12-13 14:00:00
+114,COMP,341,01,FISK413,Artificial Intelligence,"Narayana,Sushirdeep",2024-12-13 14:00:00
+115,ECON,268,01,PAC003,Economic History of Latin America Since Bretton Woods,"Castillo-Garcia,Cesar",2024-12-13 14:00:00
+116,ENGL,325,01,RLAN106,Intermediate Nonfiction Workshop,"Vogel,Danielle",2024-12-13 14:00:00
+117,GOVT,157,02,PAC107,Democracy and Dictatorship: Politics in the Contemporary World,"Shahid,Rudabeh",2024-12-13 14:00:00
+118,GOVT,217,01,PAC101,The American Presidency,"Peck,Justin",2024-12-13 14:00:00
+119,GOVT,368,01,PAC001,National Security Law,"Aaron,David",2024-12-13 14:00:00
+120,GOVT,380,01,PAC116,Public Opinion and Polling Lab,"Dancey,Logan",2024-12-13 14:00:00
+121,MATH,121,04,SCIE216,Calculus I,"Porat,Zachary",2024-12-13 14:00:00
+122,MATH,122,01,SCIE405,Calculus II,"Pollack,David",2024-12-13 14:00:00
+123,MATH,132,01,SCIE141,Elementary Statistics,"Yelton,Jeffrey",2024-12-13 14:00:00
+124,MATH,222,02,SCIE150,Multivariable Calculus,"Yoon,Iris",2024-12-13 14:00:00
+125,CHEM,141,01,SHAN107,General Chemistry I,"Davis,Anthony",2024-12-14 09:00:00
+126,CHEM,143,01,SCIE121,Honors General Chemistry I,"Smith,Colin",2024-12-14 09:00:00
+127,CHEM,143,02,SCIE121,Honors General Chemistry I,"Smith,Colin",2024-12-14 09:00:00
+128,CHEM,143,03,SCIE121,Honors General Chemistry I,"Smith,Colin",2024-12-14 09:00:00
+129,CHEM,143,04,SCIE121,Honors General Chemistry I,"Smith,Colin",2024-12-14 09:00:00
+130,CHEM,143,05,SCIE121,Honors General Chemistry I,"Smith,Colin",2024-12-14 09:00:00
+131,CHEM,143,06,SCIE121,Honors General Chemistry I,"Smith,Colin",2024-12-14 09:00:00
+132,GOVT,151,01,PAC100,American Government and Politics,"Mark,Alyx",2024-12-14 09:00:00
+133,GOVT,155,01,PAC107,International Relations,"Gallarotti,Giulio",2024-12-14 09:00:00
+134,GOVT,220,01,PAC101,"US Political Economy: State, Markets, and the Dynamics of Change","Eisner,Marc",2024-12-14 09:00:00
+135,GRST,101,01,FISK404,Elementary German,"Baeumel,Martin",2024-12-14 09:00:00
+136,MATH,132,03,SCIE618,Elementary Statistics,"Yardimci,Leyla",2024-12-14 09:00:00
+137,MATH,222,01,SCIE139,Multivariable Calculus,"Chang,Yu-Chan",2024-12-14 09:00:00
+138,MB&B,181,07,SCIE109,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Weir,Michael",2024-12-14 09:00:00
+139,MB&B,181,08,SCIE109,Principles of Biology I: Cell Biology and Molecular Basis of Heredity,"Weir,Michael",2024-12-14 09:00:00
+140,ARHA,224,01,BOGH112,Italian Art and Architecture of the 16th Century,"Aksamija,Nadja",2024-12-14 14:00:00
+141,ARHA,253,01,BOGH114,Art After 1945,"Grace,Claire",2024-12-14 14:00:00
+142,ARST,131,04,AWKS105,Drawing I,"Kessel,Scott",2024-12-14 14:00:00
+143,CHEM,251,01,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+144,CHEM,251,02,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+145,CHEM,251,03,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+146,CHEM,251,04,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+147,CHEM,251,05,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+148,CHEM,251,06,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+149,CHEM,251,07,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+150,CHEM,251,08,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+151,CHEM,251,09,SHAN107,Organic Chemistry I,"Elling,Benjamin",2024-12-14 14:00:00
+152,CHEM,361,01,HALL84,Advanced Inorganic Chemistry,"Gonzalez-Pech,Natalia",2024-12-14 14:00:00
+153,E&ES,220,01,SCIE405,Geomorphology,"Eggers,Gabriel",2024-12-14 14:00:00
+154,ECON,110,01,PAC100,Introduction to Economic Theory,"Zhao,Xiaoxue",2024-12-14 14:00:00
+155,ENVS,197,01,SCIE309,Introduction to Environmental Studies,"Miller,Kathleen (Kate)",2024-12-14 14:00:00
+156,GOVT,155,03,PAC002,International Relations,"Dolan,Lindsay",2024-12-14 14:00:00
+157,GOVT,159,01,PAC117,The Moral Basis of Politics,"Cucharo,Stephen",2024-12-14 14:00:00
+158,GOVT,206,01,PAC307,Public Policy,"Eisner,Marc",2024-12-14 14:00:00
+159,GOVT,366,01,PAC301,Empirical Methods for Political Science,"Franklin Fowler,Erika",2024-12-14 14:00:00
+160,MUSC,103,01,RHH003,Materials and Design,"Mitchell,Nathaniel",2024-12-14 14:00:00
+161,PSYC,222,01,JUDD116,Sensation and Perception,"Juhasz,Barbara",2024-12-14 14:00:00
