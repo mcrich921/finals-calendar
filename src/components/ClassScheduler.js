@@ -117,7 +117,7 @@ function ClassScheduler() {
       <div className="classes-container">
         {/* Available Classes */}
         <div className="available-classes">
-          <h2>Available Classes</h2>
+          <h2>All Classes</h2>
           <div className="scrollable-list">
             {filteredClasses.length > 0 ? (
               filteredClasses.map((cls, index) => {
@@ -156,7 +156,7 @@ function ClassScheduler() {
 
         {/* Selected Classes */}
         <div className="selected-classes">
-          <h2>Selected Classes</h2>
+          <h2>Your Classes</h2>
           <div className="scrollable-list">
             {selectedClasses.length > 0 ? (
               <ul>
