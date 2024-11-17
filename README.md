@@ -1,3 +1,6 @@
+# Finals Calendar Wesleyan
+Check it out [here](https://finals-scheduler.vercel.app/)!
+
 ## Inspiration
 Just last week, I was trying to plan out the end of my semester and found it incredibly painful to scroll through a pdf to find my finals. I was inspired to create a tool that simplifies this process for students at Wesleyan University. With the constant stresses and time constraints of college, I wanted to make it easy for students to plan their semester and stay organized.
 
