@@ -1,6 +1,8 @@
 import React from "react";
 import ClassScheduler from "./components/ClassScheduler";
 import "./styles/styles.css";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       </header>
       <main>
         <ClassScheduler />
+        {/* For Vercel */}
+        <SpeedInsights />
+        <Analytics />
       </main>
     </div>
   );
