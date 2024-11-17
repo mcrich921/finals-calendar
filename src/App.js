@@ -6,8 +6,11 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Final Exam Scheduler</h1>
-        <p>Select your classes to view your final exam schedule.</p>
+        <h1>Finals Calendar</h1>
+        <p>
+          Your finals schedule, made easier. <br />
+          Click on selected classes to add to Google Calendar.
+        </p>
       </header>
       <main>
         <ClassScheduler />
