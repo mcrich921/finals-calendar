@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Papa from "papaparse"; // Import PapaParse for CSV parsing
 import SubjectFilter from "./SubjectFilter"; // Import the new SubjectFilter component
+import CreateCalendar from "./CreateCalendar";
 
 function ClassScheduler() {
   const [selectedClasses, setSelectedClasses] = useState([]);
@@ -24,10 +25,9 @@ function ClassScheduler() {
 
   // Handle class selection or deselection
   const handleClassClick = (classItem) => {
-    // adding unique class identifier of name and section
     const classKey = `${classItem.Name}-${classItem.Section}`;
 
-    // Toggle the class in selectedClasses without affecting availableClasses
+    // If the class is already in the selectedClasses list, remove it from there
     if (
       selectedClasses.some((cls) => `${cls.Name}-${cls.Section}` === classKey)
     ) {
@@ -35,19 +35,20 @@ function ClassScheduler() {
         prev.filter((cls) => `${cls.Name}-${cls.Section}` !== classKey)
       );
     } else {
+      // Otherwise, add it to the selectedClasses list
       setSelectedClasses((prev) => [...prev, classItem]);
     }
   };
 
-  // Filter classes by selected subject and search term
+  // Filter available classes by selected subject and search term
   const filteredClasses = classesData
     .filter(
       (cls) => selectedSubject === "all" || cls.Subject === selectedSubject
     )
     .filter(
       (cls) =>
-        cls.Number.toLowerCase().includes(searchTerm.toLowerCase()) || // Match search term with number
-        cls.Name.toLowerCase().includes(searchTerm.toLowerCase()) // Match search term with class name
+        cls.Number.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        cls.Name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
   // Get unique subjects for the dropdown
@@ -62,10 +63,9 @@ function ClassScheduler() {
     setSearchTerm(term);
   };
 
-  // Function to format 24h time to (Day of Week) Month DayNumber, Year time with AM/PM
+  // Function to format 24h time to a readable string
   const formatTime = (dateTime) => {
     const date = new Date(dateTime);
-
     const daysOfWeek = [
       "Sunday",
       "Monday",
@@ -75,7 +75,6 @@ function ClassScheduler() {
       "Friday",
       "Saturday",
     ];
-
     const monthsOfYear = [
       "January",
       "February",
@@ -90,7 +89,6 @@ function ClassScheduler() {
       "November",
       "December",
     ];
-
     let hours = date.getHours();
     let minutes = date.getMinutes();
     const day = daysOfWeek[date.getDay()];
@@ -99,8 +97,7 @@ function ClassScheduler() {
     const year = date.getFullYear();
     const ampm = hours >= 12 ? "PM" : "AM";
 
-    hours = hours % 12;
-    hours = hours ? hours : 12;
+    hours = hours % 12 || 12;
     minutes = minutes < 10 ? "0" + minutes : minutes;
 
     return `${day} ${month} ${dayNumber}, ${year} ${hours}:${minutes} ${ampm}`;
@@ -166,7 +163,10 @@ function ClassScheduler() {
                 {selectedClasses.map((cls) => {
                   const classKey = `${cls.Name}-${cls.Section}`;
                   return (
-                    <li key={classKey}>
+                    <li
+                      key={classKey}
+                      onClick={() => CreateCalendar(cls)} // Remove from selected classes if clicked
+                    >
                       <div className="class-text">
                         <strong>
                           {cls.Subject}
