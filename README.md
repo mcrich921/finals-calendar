@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## Inspiration
+Just last week, I was trying to plan out the end of my semester and found it incredibly painful to scroll through a pdf to find my finals. I was inspired to create a tool that simplifies this process for students at Wesleyan University. With the constant stresses and time constraints of college, I wanted to make it easy for students to plan their semester and stay organized.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+Finals Calendar Wesleyan is a web app that allows students to filter, search, and select their courses from a list. Once selected, the app adds the final exam times to the student’s Google Calendar, helping them stay on top of their final exams and important deadlines.
 
-## Available Scripts
+## How I built it
+I built this app using React to create a dynamic, interactive user experience. I used PapaParse to load class data from a CSV file I got from a simple python pdf scraping script, and implemented features like search, filtering by subject, and toggling selected classes.
 
-In the project directory, you can run:
+## Challenges I ran into
+- How to effectively display information without it being overwhelming
+- Trying to use both a new API (Google Calendar) and a new framework (React)
+- Ensuring smooth filtering and search functionality, especially with cases like multiple classes having the same name and number but different sections.
 
-### `npm start`
+## Accomplishments that I'm proud of
+- Implemented a clean and intuitive interface that makes scheduling finals much quicker
+- Integrated Google Calendar event creation for finals
+- Developed a filtering and search feature that lets users easily find their courses by subject or name
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What I learned
+- Improved our React skills, particularly in managing state and handling complex user interactions.
+- The importance of UI/UX design, especially when dealing with data-driven applications that need to remain user-friendly and efficient.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Finals Calendar Wesleyan
+- Implement Google Calendar API for an even easier transition
+- Make the app more customizable by adding different types of events (e.g., official class times).
+- Expand the app to support other universities and automate course schedule import for a broader audience.
