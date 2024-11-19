@@ -165,7 +165,7 @@ function ClassScheduler() {
                   const classKey = `${cls.Name}-${cls.Section}`;
                   return (
                     <div id="full-selected-class">
-                      <li key={classKey} onClick={() => CreateCalendar(cls)}>
+                      <li key={classKey}>
                         <div className="class-text">
                           <strong>
                             {cls.Subject}
@@ -177,7 +177,10 @@ function ClassScheduler() {
                           <br /> {formatTime(cls.DateTime)}
                         </div>
                       </li>
-                      <GCalButton cls={cls} />
+                      <GCalButton
+                        cls={cls}
+                        onRemove={() => handleClassClick(cls)}
+                      />
                     </div>
                   );
                 })}

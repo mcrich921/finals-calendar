@@ -79,14 +79,19 @@ p {
   border: 1px solid #ddd;
   border-radius: 3px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
 }
 
 /* Scrollable container for Available and Selected Classes */
 
-.available-classes,
-.selected-classes {
+.available-classes {
   width: 48%;
-  /* padding: 10px; */
+  padding: 10px;
+}
+
+.selected-classes {
+  width: 56%;
+  padding: 10px;
 }
 
 h2 {
