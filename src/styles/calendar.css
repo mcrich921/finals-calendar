@@ -1,0 +1,41 @@
+.calendar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.calendar-icon {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.calendar-button:hover {
+  transform: scale(1.05);
+}
+
+/* .calendar-button:focus {
+outline: 3px solid #FFC107;
+outline-offset: 2px;
+} */
+
+.calendar-button:active {
+  transform: scale(0.95);
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%; /* Slightly larger than the icon */
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 4px; /* Optional: rounded corners */
+}

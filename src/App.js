@@ -3,6 +3,7 @@ import ClassScheduler from "./components/ClassScheduler";
 import "./styles/styles.css";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
+import GCalButton from "./components/GCalButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </p>
       </header>
       <main>
+        <GCalButton />
         <ClassScheduler />
         {/* For Vercel */}
         <SpeedInsights />
