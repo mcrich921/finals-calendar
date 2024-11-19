@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Papa from "papaparse"; // Import PapaParse for CSV parsing
 import SubjectFilter from "./SubjectFilter"; // Import the new SubjectFilter component
 import CreateCalendar from "./CreateCalendar";
+import GCalButton from "./GCalButton";
 
 function ClassScheduler() {
   const [selectedClasses, setSelectedClasses] = useState([]);
@@ -163,21 +164,21 @@ function ClassScheduler() {
                 {selectedClasses.map((cls) => {
                   const classKey = `${cls.Name}-${cls.Section}`;
                   return (
-                    <li
-                      key={classKey}
-                      onClick={() => CreateCalendar(cls)} // Remove from selected classes if clicked
-                    >
-                      <div className="class-text">
-                        <strong>
-                          {cls.Subject}
-                          {cls.Number}
-                        </strong>
-                        -{cls.Section}: {cls.Name}
-                        <br />
-                        {cls.Professor}
-                        <br /> {formatTime(cls.DateTime)}
-                      </div>
-                    </li>
+                    <div id="full-selected-class">
+                      <li key={classKey} onClick={() => CreateCalendar(cls)}>
+                        <div className="class-text">
+                          <strong>
+                            {cls.Subject}
+                            {cls.Number}
+                          </strong>
+                          -{cls.Section}: {cls.Name}
+                          <br />
+                          {cls.Professor}
+                          <br /> {formatTime(cls.DateTime)}
+                        </div>
+                      </li>
+                      <GCalButton cls={cls} />
+                    </div>
                   );
                 })}
               </ul>

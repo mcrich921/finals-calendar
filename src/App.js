@@ -16,7 +16,6 @@ function App() {
         </p>
       </header>
       <main>
-        <GCalButton />
         <ClassScheduler />
         {/* For Vercel */}
         <SpeedInsights />
