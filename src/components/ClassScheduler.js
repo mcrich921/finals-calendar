@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Papa from "papaparse"; // Import PapaParse for CSV parsing
 import SubjectFilter from "./SubjectFilter"; // Import the new SubjectFilter component
-import CreateCalendar from "./CreateCalendar";
 import GCalButton from "./GCalButton";
 
 function ClassScheduler() {

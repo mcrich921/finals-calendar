@@ -13,6 +13,12 @@ body h1 {
   margin-bottom: 0;
 }
 
+body h2 {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
 body p {
   margin-top: 1vh;
 }

@@ -9,11 +9,9 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Finals Calendar</h1>
-        <p>
-          Your finals schedule, made easier. <br />
-          Click on selected classes to add to Google Calendar.
-        </p>
+        <h1>Wes Finals</h1>
+        <h2>Fall 2024</h2>
+        <p>Your finals schedule, made easier.</p>
       </header>
       <main>
         <ClassScheduler />
